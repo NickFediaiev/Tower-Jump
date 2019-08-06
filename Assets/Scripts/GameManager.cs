@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Advertisements;
 
 public class GameManager : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class GameManager : MonoBehaviour
     
     void Awake()
     {
+        Advertisement.Initialize("3247234");
         if (singleton == null)
         {
             singleton = this;
@@ -38,6 +40,7 @@ public class GameManager : MonoBehaviour
         singleton.score = 0;
         FindObjectOfType<BallController>().ResetBall();
         FindObjectOfType<HelixController>().LoadStage(currentStage);
+        Advertisement.Show();
     }
 
     public void AddScore(int scoreToAdd)
