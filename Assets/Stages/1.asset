@@ -16,13 +16,13 @@ MonoBehaviour:
   stagePlatformPartColor: {r: 0.23921567, g: 0.35981974, b: 1, a: 1}
   stageBallColor: {r: 1, g: 1, b: 1, a: 1}
   platforms:
-  - partCount: 6
+  - partCount: 11
     deathPartCount: 4
-  - partCount: 6
+  - partCount: 10
     deathPartCount: 2
-  - partCount: 6
+  - partCount: 9
     deathPartCount: 4
-  - partCount: 8
+  - partCount: 10
     deathPartCount: 5
-  - partCount: 4
+  - partCount: 11
     deathPartCount: 2
