@@ -120,12 +120,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &84267555 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1543122264918778189, guid: a99b0034cccb6a241b963d22d942a7d2,
-    type: 3}
-  m_PrefabInstance: {fileID: 1616756366935873600}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &84267556 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2394101985446421282, guid: a99b0034cccb6a241b963d22d942a7d2,
@@ -357,7 +351,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   topTransform: {fileID: 84267556}
   goalTransform: {fileID: 2394101984613740624}
-  helixPlatformPrefab: {fileID: 84267555}
+  helixPlatformPrefab: {fileID: 1543122264918778189, guid: a99b0034cccb6a241b963d22d942a7d2,
+    type: 3}
   allStages:
   - {fileID: 11400000, guid: 524c65209bbfb924ca865f13f097031e, type: 2}
   - {fileID: 11400000, guid: e0579f16cea8c9140905d168e6948bdf, type: 2}
@@ -440,7 +435,7 @@ TrailRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
+        time: 1
         value: 1
         inSlope: 0
         outSlope: 0

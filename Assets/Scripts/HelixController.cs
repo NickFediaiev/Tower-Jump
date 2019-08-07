@@ -53,6 +53,7 @@ public class HelixController : MonoBehaviour
 
         if (stage == null)
         {
+            Application.Quit();
             Debug.LogError("No Stage " + stageNumber + " found in allStages List. Are all stages assigned in the List?");
             return;
         }
